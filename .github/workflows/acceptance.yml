@@ -14,5 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - name: Observable running window
+        run: sleep 45
       - name: Controlled acceptance result
         run: test "$(cat acceptance-state.txt)" = pass
