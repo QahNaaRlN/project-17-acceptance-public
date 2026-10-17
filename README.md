@@ -15,3 +15,5 @@ pass, слить PR и наблюдать отдельный CI итоговог
 
 Для нового репозитория нужно отдельно подтвердить repository ID, базовую ветку,
 точное имя проверки, SHA, на котором GitHub публикует Check Run, и app ID издателя.
+
+This branch is used to observe PR state and exact commit checks from CMS.
